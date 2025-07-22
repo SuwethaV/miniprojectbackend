@@ -6,7 +6,7 @@ import User from '../models/user.model.js';
 const router = express.Router();
 
 // Route for user registration
-router.post('/register', register);
+router.post('/Register', register);
 
 // ✅ New route to check if user exists using mobile/email
 router.post('/check-user', async (req, res) => {
